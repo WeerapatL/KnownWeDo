@@ -10,28 +10,28 @@ command : "git clone https://github.com/surakiti/KnownWeDo.git"
 ### 1. Apache Maven 
 install "Apache Maven" </br>
 Download : http://maven.apache.org/download.cgi </br>
-$ cd 'your directory that clone git'
-$ mvn clean install
-you can use maven with IDE to config dependencies in 'POM.xml' file 
+$ cd 'your directory that clone git' </br>
+$ mvn clean install </br>
+you can use maven with IDE to config dependencies in 'POM.xml' file </br>
 example 'POM.xml' file https://github.com/surakiti/KnownWeDo/blob/master/KnowWeDo/pom.xml
 
 
 ### 2. Apache Tomcat
-install "Apache Tomcat"
-Download : https://tomcat.apache.org/download-80.cgi   
-install server on NetbeansIDE 
+install "Apache Tomcat" </br>
+Download : https://tomcat.apache.org/download-80.cgi   </br>
+install server on NetbeansIDE </br>
 choose 'Apache Tomcat Server' and you set your username and password
 
 
 ### 3. MySQL Community Server 5.7 
-install Database Server : 'MySQL Community Server 5.7'
+install Database Server : 'MySQL Community Server 5.7'</br>
 * [Windows]  
 Download : https://dev.mysql.com/downloads/windows/installer/5.7.html  
 
 * [MacOS]  
-Download : https://dev.mysql.com/downloads/mysql/ 
-(select platform 'MacOSX' and dowload dmg file)
-edit file command : 
+Download : https://dev.mysql.com/downloads/mysql/ </br>
+(select platform 'MacOSX' and dowload dmg file)</br>
+edit file command : </br>
 .bash_profile
 # Add MySQL 
 export MYSQL_ROOT=/usr/local/mysql 
