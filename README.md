@@ -3,13 +3,13 @@ INT206 Software Process Management Project
 Link วิดิโอการทำงานของระบบ : https://www.youtube.com/watch?v=sY4eLuRwZ6s
 
 # Getting started
-Clone git into your device 
+Clone git into your device </br>
 command : "git clone https://github.com/surakiti/KnownWeDo.git"  
 
 
 ### 1. Apache Maven 
-install "Apache Maven"
-Download : http://maven.apache.org/download.cgi
+install "Apache Maven" </br>
+Download : http://maven.apache.org/download.cgi </br>
 $ cd 'your directory that clone git'
 $ mvn clean install
 you can use maven with IDE to config dependencies in 'POM.xml' file 
