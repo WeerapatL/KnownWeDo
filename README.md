@@ -32,28 +32,33 @@ Download : https://dev.mysql.com/downloads/windows/installer/5.7.html
 Download : https://dev.mysql.com/downloads/mysql/ </br>
 (select platform 'MacOSX' and dowload dmg file)</br>
 edit file command : </br>
-.bash_profile
-# Add MySQL 
-export MYSQL_ROOT=/usr/local/mysql 
-export PATH=$MYSQL_ROOT/bin:$PATH
-open terminal command : 
-mysql -u root -p
-you enter password that you got at installing
-*you can set new password command :
-SET PASSWORD = PASSWORD('your password'); 
+.bash_profile</br>
+#Add MySQL </br>
+export MYSQL_ROOT=/usr/local/mysql </br>
+export PATH=$MYSQL_ROOT/bin:$PATH</br>
+open terminal command : </br>
+mysql -u root -p</br>
+you enter password that you got at installing</br>
+*you can set new password command :</br>
+" SET PASSWORD = PASSWORD('your password'); "</br>
 
 you can use MySQL Workdbench for managing database.
 
 # Config Properties
-create file config.properties in '/src/main/resoures' and you initial 
-dburl=${databaseURL}
-dbuser=${databaseUsername}
-dbpassword= ${databasePassword}
+create file config.properties in '/src/main/resoures' and you initial </br>
+dburl=${databaseURL}</br>
+dbuser=${databaseUsername}</br>
+dbpassword= ${databasePassword}</br>
 
 # Members
 5810500070 วีระภัทร ลออทรัพยาภัทร
+
 58130500081 สุรกิติ โสภณธนพัต
+
 58130500093 เอกราช อัศวรักษ์สกุล
+
 58130500095 จิรายุ จันทร์พงษ์
+
 58130500101 สมัชญ์ศักย์ ภาคธูป
+
 58130500108 ฉันทวัฒน์ ประดิษฐ
